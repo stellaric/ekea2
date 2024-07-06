@@ -1,0 +1,99 @@
+.intro_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--Greyed_Olive);
+    width: 100%;
+  }
+  
+  .intro_services p {
+    font-size: x-large;
+    margin: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+.intro_services_btn {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.intro_services button {
+  padding: 2%;
+  font-size: x-large;
+  border: 1px solid var(--Greyed_Olive);
+  border-radius: 20px;
+  background: transparent;
+  margin: 2%;
+}
+
+.intro_services button:hover {
+  background-color: var(--Greyed_Olive);
+  color: var(--White);
+}
+/* service de livraison */
+.service_livraison , .service_paiement{
+  padding: 2%;
+}
+.service_livraison h3 , .service_paiement h3 {
+  font-size: xx-large;
+  text-align: center;
+  padding: 2%;
+  font-weight: 500;
+  color: var(--Khaki_Green);
+}
+
+.service_livraison_content , .service_paiement_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.service_livraison_content_img , .service_livraison_content_txt , .service_paiement_content_img  {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_livraison_content_img img , .service_paiement_content_img img{
+  width: 70%;
+  height: 525px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.service_livraison_card , .service_paiement_card {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 10%;
+  text-align: center;
+}
+
+.service_paiement_card {
+  background-color:var(--Greyed_Olive);
+}
+
+.service_livraison_card:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.service_livraison_card p {
+  font-size: x-large;
+  color: var(--Dark_Olive-semi-transparent);
+}
+
+.service_paiement_card p {
+  font-size: x-large;
+  color: var(--White);
+}
+.icon_paiement {
+  display: flex;
+  flex-direction: row;
+ 
+}

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" />
     <title>Ekea - Contact</title>
 </head>
 <body>
     <header class="header_page">
         <nav>
             <div class="nav_logo">
-              <a href="http://"></a>
-              <a href="http://"
+              <a href="#"></a>
+              <a href="../index.html"
                 ><img src="../media/img/Logoekea.png" alt="Logoekea"
               /></a>
               <a href="http://">Connexion</a>
@@ -21,7 +21,7 @@
             <div class="nav_onglet">
               <a href="../index.html">Accueil</a>
               <a href="http://">Catalogue</a>
-              <a href="http://">Services</a>
+              <a href="vue-services.html">Services</a>
               <a href="vue-contact.html">Contact</a>
               <a href="http://">A Propos</a>
             </div>
@@ -32,10 +32,70 @@
     <main>
         <section class="intro_contact">
             <h1>Contact</h1>
+            <p>Une question ? un problème ? N’hésiter pas à nous envoyer un message </p>
         </section>
 
-        <section></section>
-        <section></section>
+        <section class="form_contact">
+          <div class="form_contact_content">
+
+            <div class="form_contact_content_img">
+              <img src="../media/img/header_contact.jpg" alt="" >
+            </div>
+             <div class="form_contact_content_label">
+              <div class="content_label">
+              <div class="label_contact">
+              <label for="label_nom">Nom :</label>
+              <input type="email" name="email" id="email_input">
+              </div>
+              <div class="label_contact">
+                <label for="sujet">Sujet :</label>
+                <input type="text" name="sujet" id="sujet_input">
+              </div>
+              <div class="label_contact">
+                <label for="message">Message :</label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+              </div>
+              <button type="submit">Envoyer</button>
+             </div>
+</div>
+          </div>
+        </section>
+        <section class="coordonne">
+          <div class="coordonne_content">
+            <h3>Adresse</h3>
+            <p>120 rue des Chantilly ,<br>
+              Praderie,<br>
+              123456</p>
+            <br>
+            <h3>Téléphone</h3>
+            <p>01.23.45.56.78</p>
+          </div>
+          <div class="coordonne_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d674391.9525280339!2d1.8433295234331666!3d48.67979566983647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5e1c403a68c17%3A0x10b82c3688b2570!2s%C3%8Ele-de-France!5e0!3m2!1sfr!2sfr!4v1720051406200!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
     </main>
+
+    <footer>
+      <div class="footer_first">
+        <div class="footer_logo">
+          <a href="../index.html"
+            ><img src="../media/img/Logoekea.png" alt="Logoekea"
+          /></a>
+        </div>
+        <div class="footer_onglet">
+          <a href="../index.html">Accueil</a>
+          <a href="http://">Catalogue</a>
+          <a href="vue-services.html">Services</a>
+          <a href="vue-contact.html">Contact</a>
+          <a href="http://">A Propos</a>
+        </div>
+      </div>
+      <div class="footer_bis">
+        <p>Mentions légales</p>
+        <p>- Ekea</p>
+      </div>
+    </footer>
+    
 </body>
 </html>
