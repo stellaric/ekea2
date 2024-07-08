@@ -34,13 +34,19 @@
         <p> Explorez des inspirations pour créer votre espace idéal. Découvrez des pièces uniques et de qualité pour embellir votre intérieur. </p>
   
         <div class="intro_services_btn">
+          <div class="tab" onclick="openTab(event, 'tab1')">
     <button>Service de livraison</button>
+    </div>
+    <div class="tab" onclick="openTab(event, 'tab2')">
     <button> Mode de paiement</button>
+    </div>
+
    </div>
 
     </section>
 
     <!--Service de livraison-->
+    <div id="tab1" class="tab-content active">
     <section class="service_livraison">
       <h3>Services de livraison</h3>
 <div class="service_livraison_content">
@@ -61,8 +67,10 @@
   </div>
 </div>
     </section>
+  </div>
 
     <!--Mode de paiement -->
+    <div id="tab2" class="tab-content ">
     <section class="service_paiement">
       <h3>Mode de paiement</h3>
       <div class="service_paiement_content">
@@ -71,21 +79,17 @@
         </div>
         <div class="service_paiement_content_txt">
           <div class="service_paiement_card">
-            <p><span class="txt_gras">Paiement par carte bancaire : </span><br>
-              <div class="icon_paiement">
-              39€ pour un achat inférieur à 400€<br>
-              59€ pour un achat​​ supérieur à 400€ et inférieur à 1000€<br>
-              109€ pour un achat supérieur à 1000€</p>
+            <p><span class="txt_gras">Moyen de paiement: </span><br>
+              <div class="icon_paiement"><p>
+              Paiement par carte bancaire<br>
+              Paiement par Paypal<br>
+              Paiement en 4 fois </p>
             </div>
-          </div>
-          <div class="card_paiement">
-            <div class="card_paiement_first">1</div>
-            <div class="card_paiement_first">2</div>
           </div>
         </div>
       </div>
     </section>
-
+</div>
     <!---->
     <section class="section_accueil_contact">
       <div class="accueil_contact_content">
@@ -118,6 +122,11 @@
     <p>- Ekea</p>
   </div>
 </footer>
-
+ <!-- Scripts -->
+ <div class="script">
+  <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script src="../assets/js/script.js"></script>
+</div>
 </body>
 </html>

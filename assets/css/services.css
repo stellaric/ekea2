@@ -77,10 +77,15 @@
 }
 
 .service_paiement_card {
-  background-color:var(--Greyed_Olive);
+  background-color: var(--Greyed_Olive);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 96%;
 }
 
-.service_livraison_card:hover {
+.service_livraison_card:hover ,.service_paiement_card:hover {
   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 .service_livraison_card p {
@@ -96,4 +101,18 @@
   display: flex;
   flex-direction: row;
  
+}
+.service_paiement_content_txt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tab-content {
+  display: none;
+}
+
+.active {
+  display: block;
 }
