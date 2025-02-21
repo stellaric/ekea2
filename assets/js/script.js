@@ -56,3 +56,4 @@ function openTab(event, tabId) {
 // Ouvrir la première tab par défaut
 document.getElementById('tab1').style.display = 'block';
 document.getElementsByClassName('tab')[0].classList.add('active');
+

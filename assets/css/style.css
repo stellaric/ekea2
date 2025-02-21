@@ -37,7 +37,7 @@ h1 {
   color: var(--Greyed_Olive);
 }
 
-p, a, input, li, label, legend, button{
+p, a, input, li, label, legend, button ,textarea{
     font-family: var(--Urbanist);
 }
 
